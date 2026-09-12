@@ -16,7 +16,8 @@
     />
     <meta name="author" content="Ali Hamza" />
     <meta name="theme-color" content="#0A0A0A" />
-    <link rel="canonical" href="https://alihamza.dev" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://hamza00003.github.io/" />
 
     <!-- Open Graph -->
     <meta property="og:title" content="Ali Hamza | Full Stack Developer" />
@@ -25,8 +26,22 @@
       content="Building high-performance web & mobile ecosystems with Laravel, Next.js, and React Native."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://alihamza.dev" />
-    <meta property="og:image" content="assets/images/og-placeholder.jpg" />
+    <meta property="og:url" content="https://hamza00003.github.io/" />
+    <meta
+      property="og:image"
+      content="https://hamza00003.github.io/profile.png"
+    />
+    <meta property="og:image:alt" content="Ali Hamza, Full Stack Developer" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ali Hamza | Full Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Building high-performance web and mobile ecosystems with Laravel, Next.js, and React Native."
+    />
+    <meta
+      name="twitter:image"
+      content="https://hamza00003.github.io/profile.png"
+    />
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -64,9 +79,7 @@
             class="flex items-center gap-2 group"
             aria-label="Ali Hamza - Home"
           >
-            <span
-              class="text-xl font-bold tracking-tight text-white dark:text-white"
-            >
+            <span class="text-xl font-bold tracking-tight">
               <span class="text-[#10B981]">AH</span
               ><span class="text-[#94A3B8]">.</span>
             </span>
@@ -280,7 +293,7 @@
               <a
                 href="Ali-Hamza-CV.pdf"
                 download="Ali-Hamza-CV.pdf"
-                class="inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold text-[#94A3B8] hover:text-[#F8FAFC] border border-[#1E293B] hover:border-[#10B981]/50 rounded-lg transition-colors"
+                class="inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold text-[#94A3B8] hover:text-black border border-[#1E293B] hover:border-[#10B981]/50 rounded-lg transition-colors"
                 target="_blank"
               >
                 <i data-lucide="download" class="w-4 h-4"></i>
@@ -419,377 +432,547 @@
     <!-- ============================================================ -->
     <!-- ABOUT -->
     <!-- ============================================================ -->
-    <section id="about" class="relative py-24 sm:py-32">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Section Header -->
-        <div class="reveal max-w-2xl mb-16">
-          <p
-            class="text-sm font-mono text-[#10B981] tracking-wider uppercase mb-3"
-          >
-            // About
-          </p>
-          <h2
-            class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight"
-          >
-            Turning ideas into
-            <span
-              class="bg-gradient-to-r from-[#10B981] to-[#3B82F6] bg-clip-text text-transparent"
-              >scalable digital products.</span
-            >
-          </h2>
+
+    <section class="py-20 max-w-7xl mx-auto px-6" id="about">
+      <!-- Section Header -->
+      <div class="mb-14">
+        <div
+          class="flex items-center gap-2 font-mono text-emerald-400 text-sm font-semibold tracking-wider uppercase mb-2"
+        >
+          <span>// About Me</span>
+          <span class="w-12 h-px bg-emerald-500/30"></span>
         </div>
-
-        <div class="grid lg:grid-cols-3 gap-12">
-          <!-- Summary -->
-          <div class="lg:col-span-2 space-y-6 reveal">
-            <p class="text-base sm:text-lg text-[#94A3B8] leading-relaxed">
-              I am a Full Stack Developer with over 5 years of professional
-              experience building web and mobile applications. My core expertise
-              includes Laravel, Next.js, React Native, RESTful APIs, MySQL, and
-              modern frontend technologies. I specialize in developing complete
-              digital solutions, from frontend interfaces and backend
-              architecture to API integrations, payment systems, deployment, and
-              ongoing optimization.
-            </p>
-            <p class="text-base sm:text-lg text-[#94A3B8] leading-relaxed">
-              My experience includes e-commerce platforms, service-booking
-              ecosystems, custom OpenCart solutions, business websites, mobile
-              applications, and administrative systems.
-            </p>
-          </div>
-
-          <!-- Education Card -->
-          <div class="reveal">
+        <h2 class="text-3xl md:text-5xl font-bold tracking-tight">
+          Turning ideas into
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400"
+            >scalable digital products</span
+          >.
+        </h2>
+      </div>
+      <!-- Main Grid: Narrative & Metrics (Left) + Portrait & Highlights (Right) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <!-- Column 1: Narrative & Details (7 cols) -->
+        <div class="lg:col-span-7 space-y-8">
+          <!-- Narrative Lead Paragraph -->
+          <p
+            class="text-slate-300 text-lg md:text-xl leading-relaxed font-normal"
+          >
+            I am a
+            <strong class="font-semibold">Full Stack Developer</strong>
+            with over
+            <span class="text-emerald-400 font-mono font-medium">5+ years</span>
+            of professional experience building web and mobile applications. My
+            core expertise includes
+            <strong class="text-slate-900"
+              >Laravel, Next.js, React Native, RESTful APIs, MySQL</strong
+            >, and modern frontend technologies.
+          </p>
+          <!-- Secondary Paragraph -->
+          <p class="text-slate-400 text-base leading-relaxed">
+            I specialize in developing complete digital solutions, from frontend
+            interfaces and backend architecture to API integrations, custom
+            payment systems, automated CI/CD deployment, and ongoing
+            optimization. I've delivered robust platforms across e-commerce
+            ecosystems, on-demand service-booking platforms, and high-volume
+            administrative dashboards.
+          </p>
+          <!-- Education Badge -->
+          <div
+            class="p-4 rounded-xl bg-slate-900/90 border border-slate-800 flex items-center gap-4 hover:border-emerald-500/40 transition-colors"
+          >
             <div
-              class="glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors"
+              class="w-12 h-12 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center shrink-0 text-emerald-400"
             >
-              <div class="flex items-start gap-4">
-                <div class="p-3 rounded-lg bg-[#10B981]/10 text-[#10B981]">
-                  <i data-lucide="graduation-cap" class="w-6 h-6"></i>
-                </div>
-                <div>
-                  <p
-                    class="text-xs font-mono text-[#10B981] uppercase tracking-wider mb-1"
+              <!-- Academic Cap Icon -->
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewbox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                <path
+                  d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                ></path>
+                <path
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <div
+                class="text-xs font-mono text-emerald-400 uppercase tracking-wider"
+              >
+                Formal Education
+              </div>
+              <div class="text-white font-semibold">BS Computer Science</div>
+              <div class="text-xs text-slate-400">
+                NCBA&amp;E University
+                <span class="text-slate-600">•</span> 2019 – 2023
+              </div>
+            </div>
+          </div>
+          <!-- Key Metrics Grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-2">
+            <div
+              class="p-4 rounded-xl bg-slate-900/60 border border-slate-800/90 text-center hover:border-slate-700 transition-colors"
+            >
+              <div
+                class="text-2xl lg:text-3xl font-bold font-mono text-emerald-400"
+              >
+                5+
+              </div>
+              <div class="text-xs mt-1 uppercase tracking-wide">Years Exp.</div>
+            </div>
+            <div
+              class="p-4 rounded-xl bg-slate-900/60 border border-slate-800/90 text-center hover:border-slate-700 transition-colors"
+            >
+              <div
+                class="text-2xl lg:text-3xl font-bold font-mono text-cyan-400"
+              >
+                10+
+              </div>
+              <div class="text-xs mt-1 uppercase tracking-wide">Delivered</div>
+            </div>
+            <div
+              class="p-4 rounded-xl bg-slate-900/60 border border-slate-800/90 text-center hover:border-slate-700 transition-colors"
+            >
+              <div class="text-2xl lg:text-3xl font-bold font-mono text-white">
+                3
+              </div>
+              <div class="text-xs mt-1 uppercase tracking-wide">Platforms</div>
+            </div>
+            <div
+              class="p-4 rounded-xl bg-slate-900/60 border border-slate-800/90 text-center hover:border-slate-700 transition-colors"
+            >
+              <div
+                class="text-2xl lg:text-3xl font-bold font-mono text-emerald-400"
+              >
+                100%
+              </div>
+              <div class="text-xs mt-1 uppercase tracking-wide">Lifecycle</div>
+            </div>
+          </div>
+          <!-- Quick Action Buttons -->
+          <div class="flex flex-wrap items-center gap-4 pt-3">
+            <a
+              class="px-6 py-3 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold text-sm transition-all shadow-glow-emerald flex items-center gap-2"
+              href="#contact"
+            >
+              Let's Work Together
+              <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewbox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="Ali-Hamza-CV.pdf"
+              download="Ali-Hamza-CV.pdf"
+              class="px-6 py-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-medium transition-colors flex items-center gap-2 border border-slate-700"
+              target="_blank"
+            >
+              <i data-lucide="download" class="w-4 h-4"></i>
+              Download Full CV
+            </a>
+          </div>
+        </div>
+        <!-- Column 2: High Fidelity Portrait Card (5 cols - The Star of Option 3) -->
+        <div class="lg:col-span-5 flex flex-col items-center">
+          <!-- Portrait Container with Ambient Backglow & Glow Border -->
+          <div class="relative w-full max-w-sm group">
+            <!-- Radiant blur backdrop -->
+            <div
+              class="absolute -inset-1.5 bg-gradient-to-tr from-emerald-500/30 via-teal-500/20 to-cyan-500/30 rounded-3xl blur-xl opacity-75 group-hover:opacity-100 transition-all duration-500"
+            ></div>
+            <!-- Main Card Frame -->
+            <div
+              class="relative rounded-2xl overflow-hidden bg-slate-900 border border-emerald-500/30 shadow-2xl"
+            >
+              <!-- Floating Top Status Tag -->
+              <div class="absolute top-4 left-4 z-20">
+                <span
+                  class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/75 backdrop-blur-md border border-white/10 text-xs font-mono text-emerald-400 shadow-md"
+                >
+                  <span class="relative flex h-2 w-2">
+                    <span
+                      class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"
+                    ></span>
+                    <span
+                      class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"
+                    ></span>
+                  </span>
+                  Full Stack Engineer
+                </span>
+              </div>
+              <!-- Dev Location Pin Overlay -->
+              <div class="absolute top-4 right-4 z-20">
+                <span
+                  class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-full bg-black/75 backdrop-blur-md border border-white/10 text-[11px] font-mono text-slate-300 shadow-md"
+                >
+                  <svg
+                    class="w-3.5 h-3.5 text-cyan-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewbox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    Education
-                  </p>
-                  <h3 class="text-lg font-bold text-[#F8FAFC]">
-                    BS Computer Science
+                    <path
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    ></path>
+                    <path
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    ></path>
+                  </svg>
+                  Lahore, PK
+                </span>
+              </div>
+              <!-- High Res Portrait Image -->
+              <div
+                class="aspect-[4/5] w-full overflow-hidden bg-slate-950 relative"
+              >
+                <img
+                  alt="Ali Hamza - Full Stack Developer"
+                  class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                  src="profile.png"
+                />
+                <!-- Bottom gradient fade for text contrast -->
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-[#0b0f17] via-[#0b0f17]/20 to-transparent"
+                ></div>
+              </div>
+              <!-- Integrated Bottom Metadata Card -->
+              <div
+                class="p-5 bg-[#0e1422] border-t border-slate-800 relative z-20"
+              >
+                <div class="flex items-center justify-between mb-2">
+                  <h3 class="text-xl font-bold text-white tracking-tight">
+                    Ali Hamza
                   </h3>
-                  <p class="text-sm text-[#94A3B8] mt-1">NCBA&E University</p>
-                  <p class="text-xs font-mono text-[#94A3B8] mt-2">
-                    2019 – 2023
-                  </p>
+                  <span
+                    class="text-xs font-mono text-emerald-400 bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-500/20"
+                  >
+                    5+ YOE
+                  </span>
+                </div>
+                <p class="text-xs text-slate-400 mb-3">
+                  Laravel &amp; Next.js Specialist • Mobile &amp; API Architect
+                </p>
+                <!-- Micro Tech Stack Pills -->
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="text-[11px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700"
+                    >Laravel</span
+                  >
+                  <span
+                    class="text-[11px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700"
+                    >Next.js</span
+                  >
+                  <span
+                    class="text-[11px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700"
+                    >React Native</span
+                  >
+                  <span
+                    class="text-[11px] font-mono px-2 py-0.5 rounded bg-slate-800 text-emerald-400 border border-emerald-900/50"
+                    >REST APIs</span
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <!-- Stats -->
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
-          <div
-            class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors text-center"
-          >
-            <p class="text-3xl sm:text-4xl font-extrabold text-[#10B981]">5+</p>
-            <p class="text-xs sm:text-sm text-[#94A3B8] mt-2 font-medium">
-              Years Experience
-            </p>
-          </div>
-          <div
-            class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors text-center"
-          >
-            <p class="text-3xl sm:text-4xl font-extrabold text-[#10B981]">
-              10+
-            </p>
-            <p class="text-xs sm:text-sm text-[#94A3B8] mt-2 font-medium">
-              Projects Delivered
-            </p>
-          </div>
-          <div
-            class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors text-center"
-          >
-            <p class="text-3xl sm:text-4xl font-extrabold text-[#10B981]">3</p>
-            <p class="text-xs sm:text-sm text-[#94A3B8] mt-2 font-medium">
-              Platforms — Web / Mobile / Admin
-            </p>
-          </div>
-          <div
-            class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors text-center"
-          >
-            <p
-              class="text-xl sm:text-2xl font-extrabold text-[#10B981] leading-tight"
-            >
-              Full Lifecycle
-            </p>
-            <p class="text-xs sm:text-sm text-[#94A3B8] mt-2 font-medium">
-              Development
-            </p>
-          </div>
-        </div>
       </div>
     </section>
-
     <!-- ============================================================ -->
     <!-- SKILLS -->
     <!-- ============================================================ -->
     <section id="skills" class="relative py-24 sm:py-32 bg-[#0F172A]/30">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="reveal max-w-2xl mb-16">
-      <p
-        class="text-sm font-mono text-[#10B981] tracking-wider uppercase mb-3"
-      >
-        // Skills
-      </p>
-      <h2
-        class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight"
-      >
-        Technical
-        <span
-          class="bg-gradient-to-r from-[#10B981] to-[#3B82F6] bg-clip-text text-transparent"
-          >Expertise</span
-        >
-      </h2>
-      <p class="text-base text-[#94A3B8] mt-4">
-        Full-stack engineering accelerated by AI-assisted development workflows
-        — shipping faster, cleaner, and smarter.
-      </p>
-    </div>
-
-    <!-- 5 categories now (lg:grid-cols-5) -->
-    <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
-      <!-- Languages & Frameworks -->
-      <div
-        class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors"
-      >
-        <div class="flex items-center gap-3 mb-5">
-          <div class="p-2.5 rounded-lg bg-[#10B981]/10 text-[#10B981]">
-            <i data-lucide="code-2" class="w-5 h-5"></i>
-          </div>
-          <h3 class="text-base font-bold text-[#F8FAFC]">
-            Languages & Frameworks
-          </h3>
-        </div>
-        <ul class="space-y-3">
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>PHP
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>Laravel
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span
-            >JavaScript ES6+
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>React
-            Native
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>Next.js
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>Node.js
-          </li>
-        </ul>
-      </div>
-
-      <!-- Frontend & UI -->
-      <div
-        class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors"
-      >
-        <div class="flex items-center gap-3 mb-5">
-          <div class="p-2.5 rounded-lg bg-[#3B82F6]/10 text-[#3B82F6]">
-            <i data-lucide="layout" class="w-5 h-5"></i>
-          </div>
-          <h3 class="text-base font-bold text-[#F8FAFC]">Frontend & UI</h3>
-        </div>
-        <ul class="space-y-3">
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>HTML5
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>CSS3
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>Tailwind
-            CSS
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>Bootstrap
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>jQuery
-          </li>
-        </ul>
-      </div>
-
-      <!-- Backend & APIs -->
-      <div
-        class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors"
-      >
-        <div class="flex items-center gap-3 mb-5">
-          <div class="p-2.5 rounded-lg bg-[#10B981]/10 text-[#10B981]">
-            <i data-lucide="server" class="w-5 h-5"></i>
-          </div>
-          <h3 class="text-base font-bold text-[#F8FAFC]">Backend & APIs</h3>
-        </div>
-        <ul class="space-y-3">
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>RESTful
-            APIs
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>MySQL
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>JSON
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>Stripe
-            Integration
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span
-            >Authentication
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>API
-            Architecture
-          </li>
-        </ul>
-      </div>
-
-      <!-- AI-Assisted Development (NEW) -->
-      <div
-        class="reveal glass rounded-xl p-6 border border-[#A855F7]/30 hover:border-[#A855F7]/60 transition-colors relative overflow-hidden"
-      >
-        <!-- subtle glow -->
-        <div
-          class="absolute -top-10 -right-10 w-32 h-32 rounded-full bg-[#A855F7]/10 blur-2xl pointer-events-none"
-        ></div>
-
-        <div class="flex items-center gap-3 mb-5 relative">
-          <div class="p-2.5 rounded-lg bg-[#A855F7]/10 text-[#A855F7]">
-            <i data-lucide="sparkles" class="w-5 h-5"></i>
-          </div>
-          <h3 class="text-base font-bold text-[#F8FAFC]">
-            AI-Assisted Dev
-          </h3>
-        </div>
-        <ul class="space-y-3 relative">
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span>ChatGPT /
-            Claude / Gemini
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span>GitHub
-            Copilot
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span>Cursor /
-            AI IDEs
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span>Prompt
-            Engineering
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span>AI Code
-            Review & Refactoring
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span>API
-            Integration (OpenAI)
-          </li>
-        </ul>
-      </div>
-
-      <!-- Tools & DevOps -->
-      <div
-        class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors"
-      >
-        <div class="flex items-center gap-3 mb-5">
-          <div class="p-2.5 rounded-lg bg-[#3B82F6]/10 text-[#3B82F6]">
-            <i data-lucide="wrench" class="w-5 h-5"></i>
-          </div>
-          <h3 class="text-base font-bold text-[#F8FAFC]">Tools & DevOps</h3>
-        </div>
-        <ul class="space-y-3">
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>Git
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>OpenCart
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>VPS
-            Management
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>Deployment
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>App Store
-            Deployment
-          </li>
-          <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
-            <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>Server
-            Configuration
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Skill Indicators -->
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-      <div class="reveal glass rounded-xl p-5 border border-[#1E293B]">
-        <div class="flex items-center justify-between mb-2">
-          <span class="text-sm font-semibold text-[#F8FAFC]">Laravel</span>
-          <span class="text-xs font-mono text-[#10B981]">Expert</span>
-        </div>
-        <div class="skill-bar">
-          <div class="skill-bar-fill" style="width: 92%"></div>
-        </div>
-      </div>
-      <div class="reveal glass rounded-xl p-5 border border-[#1E293B]">
-        <div class="flex items-center justify-between mb-2">
-          <span class="text-sm font-semibold text-[#F8FAFC]">Next.js</span>
-          <span class="text-xs font-mono text-[#10B981]">Advanced</span>
-        </div>
-        <div class="skill-bar">
-          <div class="skill-bar-fill" style="width: 85%"></div>
-        </div>
-      </div>
-      <div class="reveal glass rounded-xl p-5 border border-[#1E293B]">
-        <div class="flex items-center justify-between mb-2">
-          <span class="text-sm font-semibold text-[#F8FAFC]">React Native</span>
-          <span class="text-xs font-mono text-[#10B981]">Advanced</span>
-        </div>
-        <div class="skill-bar">
-          <div class="skill-bar-fill" style="width: 82%"></div>
-        </div>
-      </div>
-      <!-- AI bar (NEW) -->
-      <div
-        class="reveal glass rounded-xl p-5 border border-[#A855F7]/30"
-      >
-        <div class="flex items-center justify-between mb-2">
-          <span class="text-sm font-semibold text-[#F8FAFC]"
-            >AI-Assisted Workflow</span
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="reveal max-w-2xl mb-16">
+          <p
+            class="text-sm font-mono text-[#10B981] tracking-wider uppercase mb-3"
           >
-          <span class="text-xs font-mono text-[#A855F7]">Advanced</span>
+            // Skills
+          </p>
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight"
+          >
+            Technical
+            <span
+              class="bg-gradient-to-r from-[#10B981] to-[#3B82F6] bg-clip-text text-transparent"
+              >Expertise</span
+            >
+          </h2>
+          <p class="text-base text-[#94A3B8] mt-4">
+            Full-stack engineering accelerated by AI-assisted development
+            workflows — shipping faster, cleaner, and smarter.
+          </p>
         </div>
-        <div class="skill-bar">
+
+        <!-- 5 categories now (lg:grid-cols-5) -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
+          <!-- Languages & Frameworks -->
           <div
-            class="skill-bar-fill"
-            style="width: 88%; background: linear-gradient(90deg, #A855F7, #3B82F6);"
-          ></div>
+            class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors"
+          >
+            <div class="flex items-center gap-3 mb-5">
+              <div class="p-2.5 rounded-lg bg-[#10B981]/10 text-[#10B981]">
+                <i data-lucide="code-2" class="w-5 h-5"></i>
+              </div>
+              <h3 class="text-base font-bold text-[#F8FAFC]">
+                Languages & Frameworks
+              </h3>
+            </div>
+            <ul class="space-y-3">
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>PHP
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span
+                >Laravel
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span
+                >JavaScript ES6+
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>React
+                Native
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span
+                >Next.js
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span
+                >Node.js
+              </li>
+            </ul>
+          </div>
+
+          <!-- Frontend & UI -->
+          <div
+            class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors"
+          >
+            <div class="flex items-center gap-3 mb-5">
+              <div class="p-2.5 rounded-lg bg-[#3B82F6]/10 text-[#3B82F6]">
+                <i data-lucide="layout" class="w-5 h-5"></i>
+              </div>
+              <h3 class="text-base font-bold text-[#F8FAFC]">Frontend & UI</h3>
+            </div>
+            <ul class="space-y-3">
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>HTML5
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>CSS3
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span
+                >Tailwind CSS
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span
+                >Bootstrap
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span
+                >jQuery
+              </li>
+            </ul>
+          </div>
+
+          <!-- Backend & APIs -->
+          <div
+            class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors"
+          >
+            <div class="flex items-center gap-3 mb-5">
+              <div class="p-2.5 rounded-lg bg-[#10B981]/10 text-[#10B981]">
+                <i data-lucide="server" class="w-5 h-5"></i>
+              </div>
+              <h3 class="text-base font-bold text-[#F8FAFC]">Backend & APIs</h3>
+            </div>
+            <ul class="space-y-3">
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span
+                >RESTful APIs
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>MySQL
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>JSON
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span
+                >Stripe Integration
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span
+                >Authentication
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#10B981]"></span>API
+                Architecture
+              </li>
+            </ul>
+          </div>
+
+          <!-- AI-Assisted Development (NEW) -->
+          <div
+            class="reveal glass rounded-xl p-6 border border-[#A855F7]/30 hover:border-[#A855F7]/60 transition-colors relative overflow-hidden"
+          >
+            <!-- subtle glow -->
+            <div
+              class="absolute -top-10 -right-10 w-32 h-32 rounded-full bg-[#A855F7]/10 blur-2xl pointer-events-none"
+            ></div>
+
+            <div class="flex items-center gap-3 mb-5 relative">
+              <div class="p-2.5 rounded-lg bg-[#A855F7]/10 text-[#A855F7]">
+                <i data-lucide="sparkles" class="w-5 h-5"></i>
+              </div>
+              <h3 class="text-base font-bold text-[#F8FAFC]">
+                AI-Assisted Dev
+              </h3>
+            </div>
+            <ul class="space-y-3 relative">
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span
+                >ChatGPT / Claude / Gemini
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span
+                >GitHub Copilot
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span
+                >Cursor / AI IDEs
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span
+                >Prompt Engineering
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span>AI
+                Code Review & Refactoring
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#A855F7]"></span>API
+                Integration (OpenAI)
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tools & DevOps -->
+          <div
+            class="reveal glass rounded-xl p-6 border border-[#1E293B] hover:border-[#10B981]/40 transition-colors"
+          >
+            <div class="flex items-center gap-3 mb-5">
+              <div class="p-2.5 rounded-lg bg-[#3B82F6]/10 text-[#3B82F6]">
+                <i data-lucide="wrench" class="w-5 h-5"></i>
+              </div>
+              <h3 class="text-base font-bold text-[#F8FAFC]">Tools & DevOps</h3>
+            </div>
+            <ul class="space-y-3">
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>Git
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span
+                >OpenCart
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>VPS
+                Management
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span
+                >Deployment
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span>App
+                Store Deployment
+              </li>
+              <li class="flex items-center gap-2 text-sm text-[#94A3B8]">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#3B82F6]"></span
+                >Server Configuration
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skill Indicators -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
+          <div class="reveal glass rounded-xl p-5 border border-[#1E293B]">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-sm font-semibold text-[#F8FAFC]">Laravel</span>
+              <span class="text-xs font-mono text-[#10B981]">Expert</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" style="width: 92%"></div>
+            </div>
+          </div>
+          <div class="reveal glass rounded-xl p-5 border border-[#1E293B]">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-sm font-semibold text-[#F8FAFC]">Next.js</span>
+              <span class="text-xs font-mono text-[#10B981]">Advanced</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="reveal glass rounded-xl p-5 border border-[#1E293B]">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-sm font-semibold text-[#F8FAFC]"
+                >React Native</span
+              >
+              <span class="text-xs font-mono text-[#10B981]">Advanced</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" style="width: 82%"></div>
+            </div>
+          </div>
+          <!-- AI bar (NEW) -->
+          <div class="reveal glass rounded-xl p-5 border border-[#A855F7]/30">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-sm font-semibold text-[#F8FAFC]"
+                >AI-Assisted Workflow</span
+              >
+              <span class="text-xs font-mono text-[#A855F7]">Advanced</span>
+            </div>
+            <div class="skill-bar">
+              <div
+                class="skill-bar-fill"
+                style="
+                  width: 88%;
+                  background: linear-gradient(90deg, #a855f7, #3b82f6);
+                "
+              ></div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- ============================================================ -->
     <!-- PROJECTS -->
@@ -979,7 +1162,9 @@
                       Live Demo
                     </a>
                     <a
-                      href="#"
+                      href="https://lipslay.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       class="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-semibold text-[#F8FAFC] glass hover:border-[#10B981]/50 rounded-lg transition-colors"
                     >
                       <i data-lucide="file-text" class="w-4 h-4"></i>
@@ -1087,7 +1272,9 @@
                       Live Demo
                     </a>
                     <a
-                      href="#"
+                      href="https://alwatanconsultant.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       class="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-semibold text-[#F8FAFC] glass hover:border-[#10B981]/50 rounded-lg transition-colors"
                     >
                       <i data-lucide="file-text" class="w-4 h-4"></i>
@@ -1201,7 +1388,9 @@
                       Live Demo
                     </a>
                     <a
-                      href="#"
+                      href="https://khairalhadi.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       class="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-semibold text-[#F8FAFC] glass hover:border-[#10B981]/50 rounded-lg transition-colors"
                     >
                       <i data-lucide="file-text" class="w-4 h-4"></i>
@@ -1310,7 +1499,7 @@
                   </ul>
                   <div class="flex flex-wrap gap-3">
                     <a
-                      href="#"
+                      href="#contact"
                       class="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-semibold text-[#F8FAFC] glass hover:border-[#10B981]/50 rounded-lg transition-colors"
                     >
                       <i data-lucide="file-text" class="w-4 h-4"></i>
@@ -1800,8 +1989,15 @@
                 class="p-3 glass rounded-lg border border-[#1E293B] text-[#94A3B8] hover:text-[#10B981] hover:border-[#10B981]/40 transition-colors"
                 aria-label="GitHub profile"
               >
-                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-1.02-.014-1.85-2.782.605-3.369-1.342-3.369-1.342-.455-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.892 1.529 2.341 1.087 2.91.831.091-.646.349-1.087.635-1.337-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844a9.58 9.58 0 0 1 2.504.337c1.909-1.294 2.748-1.025 2.748-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.337-.012 2.415-.012 2.744 0 .267.18.578.688.48A10.001 10.001 0 0 0 22 12C22 6.477 17.523 2 12 2Z"></path>
+                <svg
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-1.02-.014-1.85-2.782.605-3.369-1.342-3.369-1.342-.455-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.892 1.529 2.341 1.087 2.91.831.091-.646.349-1.087.635-1.337-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844a9.58 9.58 0 0 1 2.504.337c1.909-1.294 2.748-1.025 2.748-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.337-.012 2.415-.012 2.744 0 .267.18.578.688.48A10.001 10.001 0 0 0 22 12C22 6.477 17.523 2 12 2Z"
+                  ></path>
                 </svg>
               </a>
               <a
@@ -1811,8 +2007,15 @@
                 class="p-3 glass rounded-lg border border-[#1E293B] text-[#94A3B8] hover:text-[#10B981] hover:border-[#10B981]/40 transition-colors"
                 aria-label="LinkedIn profile"
               >
-                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V8.999h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.287ZM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125ZM3.555 20.452h3.558V8.999H3.555v11.453Z"></path>
+                <svg
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V8.999h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.287ZM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125ZM3.555 20.452h3.558V8.999H3.555v11.453Z"
+                  ></path>
                 </svg>
               </a>
               <a
@@ -1920,7 +2123,7 @@
         <div class="grid md:grid-cols-3 gap-8 mb-8">
           <!-- Brand -->
           <div>
-            <a href="#home" class="text-xl font-bold tracking-tight text-white">
+            <a href="#home" class="text-xl font-bold tracking-tight">
               <span class="text-[#10B981]">AH</span
               ><span class="text-[#94A3B8]">.</span>
             </a>
@@ -1978,8 +2181,15 @@
                 class="text-[#94A3B8] hover:text-[#10B981] transition-colors"
                 aria-label="GitHub"
               >
-                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-1.02-.014-1.85-2.782.605-3.369-1.342-3.369-1.342-.455-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.892 1.529 2.341 1.087 2.91.831.091-.646.349-1.087.635-1.337-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844a9.58 9.58 0 0 1 2.504.337c1.909-1.294 2.748-1.025 2.748-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.337-.012 2.415-.012 2.744 0 .267.18.578.688.48A10.001 10.001 0 0 0 22 12C22 6.477 17.523 2 12 2Z"></path>
+                <svg
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-1.02-.014-1.85-2.782.605-3.369-1.342-3.369-1.342-.455-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.892 1.529 2.341 1.087 2.91.831.091-.646.349-1.087.635-1.337-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844a9.58 9.58 0 0 1 2.504.337c1.909-1.294 2.748-1.025 2.748-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.337-.012 2.415-.012 2.744 0 .267.18.578.688.48A10.001 10.001 0 0 0 22 12C22 6.477 17.523 2 12 2Z"
+                  ></path>
                 </svg>
               </a>
               <a
@@ -1989,8 +2199,15 @@
                 class="text-[#94A3B8] hover:text-[#10B981] transition-colors"
                 aria-label="LinkedIn"
               >
-                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V8.999h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.287ZM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125ZM3.555 20.452h3.558V8.999H3.555v11.453Z"></path>
+                <svg
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V8.999h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.287ZM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125ZM3.555 20.452h3.558V8.999H3.555v11.453Z"
+                  ></path>
                 </svg>
               </a>
               <a
