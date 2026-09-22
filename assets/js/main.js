@@ -20,9 +20,9 @@
           html.classList.add("dark");
           html.classList.remove("light");
         } else {
-          // Default dark
-          html.classList.add("dark");
-          html.classList.remove("light");
+          // Default light
+          html.classList.add("light");
+          html.classList.remove("dark");
         }
 
         toggle.addEventListener("click", () => {
